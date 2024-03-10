@@ -35,5 +35,7 @@ Combine FFT and HWT to detect face blur to make accuracy higher.
 Python3
 opencv-python
 PyWavelets
+gradio
+insightface
 
 $ pip install -r requirements.txt
