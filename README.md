@@ -20,5 +20,5 @@ Combine FFT and HWT to detect face blur to make accuracy higher.
 
 '''
 
-$ pip install -r requirements.txt  
+$ pip install -r requirements.txt
 '''
