@@ -2,7 +2,7 @@
 import gradio as gr
 import numpy as np
 from insightface.app import FaceAnalysis 
-from modules.blur_func import blur_fft, blur_hwt
+from blur_func import blur_fft, blur_hwt
 from PIL import Image
 
 import cv2
