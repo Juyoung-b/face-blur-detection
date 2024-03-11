@@ -1,6 +1,11 @@
-# face-blur-detection
+# face blur detection
+Exclude blurry faces from detection 
 
-Based on BLUR DETECTION TECHNIQUES
+
+
+
+
+Based on original BLUR DETECTION TECHNIQUES
 
 1.  Fast Fourier Transform (FFT)
 In Fourier transform, this method calculates the
@@ -15,9 +20,22 @@ grouping diagonally, vertically, or horizontally
 connected tiles into clusters containing images are
 then declared blurred 
    
-Combine FFT and HWT to detect face blur to make accuracy higher.
+**Combine FFT and HWT to detect face blur to make accuracy higher.**
 
+
+#setup
 
 ```
 pip install -r reqirements.txt
 ```
+
+#run
+
+
+```
+python face_blur_detection.py
+```
+
+open demo page as gradio:
+
+Running on local URL:  http://127.0.0.1:7861
